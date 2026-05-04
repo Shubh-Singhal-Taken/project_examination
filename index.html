@@ -1,0 +1,29 @@
+<!-- QUESTION SET - 2
+Create schema-models using the structure shown below (User and Journal).
+→ Use Bootstrap for client-side form validation.
+Implement all CRUD operations for travel journals using the following routes:
+● GET /journals
+● GET /journal/new
+● POST /journal
+● GET /journals/:id
+● GET /journals/:id/edit
+● PUT /journals/:id
+● DELETE /journals/:id
+Note: The destination field should be immutable once the journal is created.
+Match form inputs to the schema fields:
+● User: username, password, nationality, travelStyle, favoriteContinent
+● Journal: destination, arrivalDate, departureDate, experience, rating
+Validate fields using Bootstrap (e.g., date ranges, dropdowns, rating limits).
+Implement Passport authentication with the following routes:
+● /register
+● /login
+● /logout
+After login, show the user’s travelStyle in the top-right corner.
+Use express-session and Passport for login/session management.
+Project folder structure should follow best practices:
+● public/ – static assets and styles
+● views/ – EJS templates for journal forms and display
+● models/ – user.js and journal.js
+● routes/ – route logic split into journal and auth files
+Do not use dummy data in the application.
+Do not include node_modules or package-lock.json. -->
